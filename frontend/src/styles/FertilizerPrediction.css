@@ -1,0 +1,123 @@
+body {
+    background: linear-gradient(135deg, #a2dce4 0%, #ffffff 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fertilizer-prediction-container {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    padding: 2.5rem;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    background-color: white;
+    position: relative;
+}
+
+.fertilizer-prediction-container::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #47CFFF, #33b8e6);
+    border-radius: 18px;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.fertilizer-prediction-container h2 {
+    color: #1a1a1a;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.fertilizer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.fertilizer-form input {
+    padding: 0.875rem 1rem;
+    font-size: 1rem;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    background-color: white;
+    color: #1a1a1a;
+}
+
+.fertilizer-form input:focus {
+    outline: none;
+    border-color: #47CFFF;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(71, 207, 255, 0.1);
+}
+
+.fertilizer-form input::placeholder {
+    color: #666666;
+}
+
+.fertilizer-form button {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #47CFFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 0.5rem;
+}
+
+.fertilizer-form button:hover:not(:disabled) {
+    background-color: #33b8e6;
+    transform: translateY(-1px);
+}
+
+.fertilizer-form button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: #dc2626;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #fee2e2;
+    border-radius: 8px;
+    font-size: 0.875rem;
+}
+
+.prediction-result {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f0f9ff;
+    border-radius: 8px;
+    border: 1px solid #bae6fd;
+    color: #0369a1;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.prediction-result strong {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #0284c7;
+}
+
+
+  
