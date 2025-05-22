@@ -4,7 +4,7 @@ This project is a full-stack data science and web development application that p
 
 - 🔗 **Live Web App:** [View on Netlify](https://fertilizer-usage-predictor.netlify.app)
 - 🔗 **Backend API:** [View on Render](https://fertilizer-predictor-project.onrender.com)
-- 📊 **Data Science Report:** [Add report link here]
+- 📊 **Data Science Report:** [https://drive.google.com/file/d/1ZsmKgp_haBlXN5-3JWlQ1O4-dSjagI7S/view?usp=sharing]
 
 ---
 
@@ -43,7 +43,7 @@ The final model was selected based on validation performance.
 - Model persistence via `joblib` and `pickle`
 
 ### ✔️ Notebook
-The full EDA, model training, and evaluation process can be found here: [📄 Fertilizer_Demand_Forecasting_Ghana.ipynb](#) *(Add link to notebook on GitHub)*
+The full EDA, model training, and evaluation process can be found here: [📄 Fertilizer_Demand_Forecasting_Ghana.ipynb](#) *(notebooks/Fertilizer_Demand_Forecasting_–_Ghana.ipynb)*
 
 ---
 
